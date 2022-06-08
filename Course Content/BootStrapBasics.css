@@ -1,0 +1,176 @@
+.navbar {
+    border-bottom: grey solid 4px;
+}
+
+#header {
+    background: url(images/cloud.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.text-muted {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    transition: 0.5s;
+}
+
+.navbar .navbar-brand:hover {
+    color: grey;
+    transition: 0.5s;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(63, 63, 63);
+    margin-left: 15px;
+    border-bottom: black solid 1px;
+    transition: 0.5s;
+    width: 25%;
+}
+
+.btn .btn-outline {
+    border-color: black;
+    transition: 0.5s;
+}
+
+.btn .btn-outline:hover {
+    border-color: rgb(117, 117, 117);
+    border-radius: 2px;
+    transition: 0.5s;
+    background-color: rgba(119, 119, 119, 0.253);
+    cursor: pointer;
+}
+
+#videoex {
+    margin-top: -650px;
+    margin-bottom: 100px;
+}
+
+#feature {
+    margin-bottom: 100px;
+}
+
+.fa-solid {
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.fa-brands {
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.fa-solid:hover {
+    margin-bottom: 25px;
+    font-size: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.fa-brands:hover {
+    margin-bottom: 25px;
+    font-size: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.row {
+    --bs-gutter-x: 0rem !important;
+}
+
+.leftCard .card {
+    margin-right: 0px !important;
+}
+
+.rightCard .card {
+    margin-left: 0px !important;
+}
+
+#carouselExampleDark {
+    width: 50% !important;
+    height: 50% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 10%;
+    margin-bottom: 100px !important;
+}
+
+#footer {
+    width: 100%;
+    background-color: rgb(209, 172, 120);
+}
+
+#footer .container {
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social a {
+    color: white;
+    margin-right: 50px !important;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.content h2 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+#footer .container .content {
+    color: white;
+}
+
+.second {
+    margin-left: 120px;
+}
+
+#courses-tag {
+    top: -500px;
+    position: relative;
+}
+
+#about-tag {
+    position: relative;
+    top: -575px;
+}
+
+#footer-tag {
+    position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+    #header {
+        background-size: 1200px 100vh;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #header {
+        background-size: 992px 100vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #header {
+        background-size: 768px 100vh;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #header {
+        background-size: 576px 100vh;
+    }
+}
